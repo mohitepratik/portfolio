@@ -164,28 +164,28 @@ header .navbar ul li a:hover{
 .anim{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #082032;
-    font-family: monospace;
+    font-family: 'Kaushan Script', cursive;
     flex-direction:column ;
     
    
 }
 .anim .p2{
-    font-size:3rem;
+    font-size:2rem;
     color:#eee;
-    padding: 10rem 10rem;
+    padding: 8rem 8rem;
 }
 .anim .p2:hover{
     color:#ff6347;
     text-shadow: cornsilk;
-    font-size:4rem ;
+    font-size:3rem ;
 
 
 }
 .anim .p1{
-    padding: 10rem 10rem;
+    padding: 8rem 8rem;
     font-size:2rem;
     color:#eee;
     /* padding: 1rem 0; */
@@ -209,16 +209,17 @@ header .navbar ul li a:hover{
 }
 .dynamic-txt{
     margin-left: 15px;
-    line-height: 105px;
+    line-height: 108px;
     height: 90px;
     overflow: hidden;
+   
 
    
 }
 .dynamic-txt li {
     list-style: none;
     color: #ff6347;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 500;
     top: 0;
     position: relative;
@@ -241,7 +242,7 @@ header .navbar ul li a:hover{
     width: 100%;
     background-color: #082032;
     border-left: 2px solid #ff6347;
-    animation: typing 3s steps(13) infinite;
+    animation: typing 3s steps(15) infinite;
 }
 @keyframes typing{
     40%,
@@ -518,7 +519,7 @@ header .navbar ul li a:hover{
  
  }
 
-@media (max-width:400px){
+@media (max-width:420px){
 
     header{
         width: 100vw;
